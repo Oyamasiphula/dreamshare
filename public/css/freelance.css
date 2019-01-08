@@ -1,0 +1,92 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Montserrat';
+  color: white;
+}
+
+html {
+  height: 100%
+}
+
+ul.nav.navbar-nav.navbar-right li a {
+  background: black;
+  color: white;
+}
+
+h1.header {
+  text-align: center;
+  font-family: 'Roboto Condensed';
+}
+
+/**********************************
+Responsive navbar-brand image CSS
+- Remove navbar-brand padding for firefox bug workaround
+- add 100% height and width auto ... similar to how bootstrap img-responsive class works
+***********************************/
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+.smallerText {
+  text-align: center;
+  font-size: x-large;
+}
+div.getThere {
+text-align: center;
+}
+.btn-danger{
+  border-radius: 25px;
+}
+div.getThere strong {
+font-size: x-large;
+}
+
+.example3 .navbar-brand {
+  height: 80px;
+}
+
+.example3 .nav>li>a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.navbar-default {
+  opacity: 0.5;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: large;
+}
+@media print {
+  footer .pagebreak {page-break-before: always;}
+}
+.meetWithTitle {
+  text-align: center;
+  color: #444444;
+}
+div.thumbnail img{
+  border-radius: 5em;
+}
+div.thumbnail {
+  border: white;
+}
+div.caption {
+  text-align: center;
+  color: #444444;
+}
