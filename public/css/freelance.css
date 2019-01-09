@@ -52,6 +52,18 @@ text-align: center;
 div.getThere strong {
 font-size: x-large;
 }
+div.seeAnotherOnes {
+  text-align: center;
+}
+div.seeAnotherOnes strong {
+  font-size: x-large;
+}
+.btn-default {
+  border: 2px solid red;
+  color: red;
+  border-radius: 5em;
+
+}
 
 .example3 .navbar-brand {
   height: 80px;
@@ -89,4 +101,101 @@ div.thumbnail {
 div.caption {
   text-align: center;
   color: #444444;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.imageChild {
+  position: absolute;
+  top: 90px;
+  left: 159px;
+  border-radius: 15px;
+  height: 30px;
+  text-align: center;
+  width: 31px;
+  border: 3px solid white;
+}
+#child1 {
+  background-color: #FF4E50;
+}
+#child2 {
+  background-color: #18D4CA;
+}
+#child3 {
+  background-color: #FFA710;
+}
+#child4 {
+  background-color: #667DF3;
+}
+.meetWithTitle {
+  color: #444444
+}
+.smallLayer {
+    background-color: rgba(0, 0, 0, 0.42);
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 15px;
+    width: 94%;
+    height: 94%;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.42);
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    left: 15px;
+    width: 619px;
+    height: 94%;
+}
+.actIdeasRow1 img {
+  vertical-align: middle;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+.sports {
+  left: 125px;
+  color: black;
+  top: 150px;
+  position: absolute;
+}
+.wellness {
+  left: 40px;
+  top: 150px;
+  position: absolute;
+}
+.expeditions {
+  left: 85px;
+  top: 150px;
+  position: absolute;
+}
+.games {
+  left: 115px;
+  top: 150px;
+  position: absolute;
+}
+.culture {
+  left: 170px;
+  top: 150px;
+  position: absolute;
+}
+.beauty {
+  left: 170px;
+  top: 150px;
+  position: absolute;
+}
+.travelling {
+  left: 115px;
+  top: 150px;
+  position: absolute;
+}
+div.row div.col-md-3 {
+  width: 21%;
+}
+div.row div.col-md-6 {
+  width: 42%;
 }
