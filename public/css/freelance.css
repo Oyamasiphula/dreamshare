@@ -199,3 +199,6 @@ div.row div.col-md-3 {
 div.row div.col-md-6 {
   width: 42%;
 }
+.footerHrL {
+  border: 1px solid #FF4E50;
+}
