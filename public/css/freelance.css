@@ -8,7 +8,11 @@ body {
 html {
   height: 100%
 }
-
+.appName {
+  font-family: 'Roboto Condensed';
+  display: contents;
+  color: white;
+}
 ul.nav.navbar-nav.navbar-right li a {
   background: black;
   color: white;
@@ -24,15 +28,6 @@ Responsive navbar-brand image CSS
 - Remove navbar-brand padding for firefox bug workaround
 - add 100% height and width auto ... similar to how bootstrap img-responsive class works
 ***********************************/
-.navbar-brand {
-  padding: 0px;
-}
-
-.navbar-brand>img {
-  height: 100%;
-  padding: 15px;
-  width: auto;
-}
 
 .row {
   margin: 0px;
@@ -82,8 +77,10 @@ div.seeAnotherOnes strong {
 .navbar-default {
   opacity: 0.5;
   margin-left: 150px;
+  border-color: rgba(0,0,0,.0001);
   margin-right: 150px;
   font-size: large;
+  background-color: #f0f8ff00;
 }
 @media print {
   footer .pagebreak {page-break-before: always;}
@@ -94,6 +91,7 @@ div.seeAnotherOnes strong {
 }
 div.thumbnail img{
   border-radius: 5em;
+  padding: 7px;
 }
 div.thumbnail {
   border: white;
@@ -111,12 +109,13 @@ div.caption {
   position: absolute;
   top: 90px;
   left: 159px;
-  border-radius: 15px;
-  height: 30px;
+  border-radius: 3em;
+  height: 37px;
   text-align: center;
-  width: 31px;
+  width: 37px;
   border: 3px solid white;
 }
+
 #child1 {
   background-color: #FF4E50;
 }
@@ -201,4 +200,27 @@ div.row div.col-md-6 {
 }
 .footerHrL {
   border: 1px solid #FF4E50;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imageChild {
+    position: absolute;
+    top: 90px;
+    left: 355px;
+    border-radius: 3em;
+    height: 37px;
+    text-align: center;
+    width: 37px;
+    border: 3px solid white;
+  }
+  .secndPage {
+    padding-top: 849px;
+  }
+
+
 }
